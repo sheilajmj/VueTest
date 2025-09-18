@@ -126,7 +126,7 @@ const overdueTenantsCount = computed(() => {
                 :class="[
                   'hover:bg-gray-50 transition-colors duration-150',
                   tenant.status === 'overdue'
-                    ? 'bg-red-50 border-l-4 border-red-400'
+                    ? 'bg-red-50 border-l-4 !border-l-red-400'
                     : '',
                 ]"
               >
