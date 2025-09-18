@@ -11,7 +11,7 @@ const emit = defineEmits(["handleCardClick"]);
   <!-- Stats Cards -->
   <div
     @click="$emit('handleCardClick', variant)"
-    class="bg-white overflow-hidden shadow rounded-lg"
+    class="bg-white overflow-hidden shadow rounded-lg hover:shadow-lg hover:bg-gray-50 cursor-pointer active:outline-none active:ring-2 active:ring-gray-200 transition"
   >
     <div class="p-5">
       <div class="flex items-center">
